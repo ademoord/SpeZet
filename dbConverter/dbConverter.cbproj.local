@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.718,=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.578,C:\Projekte\SpeZet\ALROS12\SW\dbConverter\dbConverter.cbproj=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.796,=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.734,C:\Projekte\SpeZet\ALROS12\SW\dbConverter\uMain.h=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.046,=C:\Projekte\SpeZet\ALROS12\SW\dbConverter\Unit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.421,=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.265,=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\ServerMethodsUnit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.734,C:\Projekte\SpeZet\ALROS12\SW\dbConverter\uMain.cpp=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.359,=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\ServerContainerUnit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.453,=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.750,=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.734,C:\Projekte\SpeZet\ALROS12\SW\dbConverter\uMain.dfm=C:\Documents and Settings\sounggalon\My Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

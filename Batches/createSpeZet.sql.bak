@@ -1,0 +1,50 @@
+#
+#   createSpeZet.sql
+#
+#   create the database from the very beginning
+#
+DROP DATABASE IF EXISTS SpeZet;     # delete SpeZet database if available
+CREATE DATABASE SpeZet;             # create the database
+USE SpeZet;                         # use it
+
+CREATE TABLE tbJob (
+    idJob INTEGER NOT NULL AUTO_INCREMENT,
+    shortJob VARCHAR(6),
+    Job VARCHAR(30),
+    Mode VARCHAR(1),
+
+    PRIMARY KEY (idJob)
+    )
+    ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=FIXED;
+    
+    
+CREATE TABLE cnvJob (
+    idJobOld INTEGER NOT NULL PRIMARY KEY,
+    idJobNew INTEGER
+    )
+    ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=FIXED;
+
+
+CREATE TABLE tbEmployee (
+    idEmployee INTEGER NOT NULL AUTO_INCREMENT,
+    shortName VARCHAR(6),
+    Name VARCHAR(40),
+    dtBegin DATETIME,
+    dtEnd DATETIME,
+    Mode VARCHAR(1),
+    PartTime FLOAT,
+    idJob INTEGER,
+
+    PRIMARY KEY (idEmployee, idJob)
+    )
+    ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=FIXED;
+        
+
+CREATE TABLE cnvEmployee (
+    idEmplNew INTEGER,
+    idEmplOld INTEGER NOT NULL PRIMARY KEY
+    )
+    ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=FIXED;
+
+
+

@@ -1,0 +1,24 @@
+Conversion Steps:
+=================
+1. mempl.db - make sure all ShortName is UNIQUE. Check the uniqueness using the following command
+
+select count(*) from mempl;
+select count(DISTINCT ShortName) from mempl;
+select ShortName, count(*) from mempl group by ShortName;
+
+
+
+
+
+Introduction
+============
+1. The MySQL workbench must be installed to make the client available
+
+2. Call the system by
+"C:\Program Files (x86)\MySQL\MySQL Workbench 5.2 CE\mysql.exe" -h 192.168.1.2 -uroot -padmin
+
+3. Open the MySQL shell with the command 
+$start cmdMySQL.bat
+
+
+
